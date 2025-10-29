@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className="text-center p-6 w-full max-w-md bg-white/80 backdrop-blur-md rounded-2xl shadow-lg">
-      <h1 className="text-3xl font-bold mb-4 text-blue-700">🌤️ Weather App</h1>
+      <h1 className="text-3xl font-bold mb-4 text-blue-700">🌤️ Weather Now</h1>
       <SearchBar onSearch={fetchWeather} />
 
       {loading && <Loader />}
